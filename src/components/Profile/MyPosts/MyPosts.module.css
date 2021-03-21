@@ -1,0 +1,41 @@
+.postsBlock {
+  padding: 10px 50px;
+  width: 850px;
+}
+.postsBlock .posts {
+  margin-top: 10px;
+}
+.postsBlock .public {
+  border: 3px solid #7B68EE;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+}
+
+textarea {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 3px solid #7B68EE;
+}
+
+textarea:active, textarea:focus, button:active, button:focus {
+  outline: none !important;
+}
+
+textarea::-moz-focus-inner, button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+.posts {
+  color: #7B68EE;
+  margin: 0 0 10px 70px;
+}
+
+.button {
+  font-family: Arial, serif;
+  border-radius: 30px;
+  border: 3px solid #7B68EE;
+  margin: 0 0 0 70px;
+}

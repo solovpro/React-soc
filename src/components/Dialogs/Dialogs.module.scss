@@ -1,0 +1,55 @@
+.content {
+	background-color: #fff;
+	border: 5px solid #7B68EE;
+	margin: 0 10px 0 0;
+	.dialogs {
+		display: grid;
+		grid-template-columns: 2fr 10fr;
+		.dialogsItems {
+			padding: 10px;
+			a {
+				color: black;
+				text-decoration: none;
+			}
+			.active {
+				color: gold;
+			}
+			.dialog {
+				margin: 10px 5px;
+				.hr {
+					height: 0.1px;
+					width: 110px;
+					background-color: white;
+					color: white;
+					margin: 0;
+				}
+			}
+		}
+		.messages {
+			padding: 10px;
+			.message {
+				color: black;
+			}
+		}
+	}
+}
+
+.DialogsItemsImg {
+	width: 50px;
+	border-radius: 50%;
+}
+
+form {
+	h1 {
+		color: #C53535;
+		font-size: 22px;
+		margin: 10px 0 10px 40px;
+	}
+	.button {
+		font-family: Arial, serif;
+		border-radius: 30px;
+		border: 3px solid #7B68EE;
+		margin: 0 0 0 70px;
+	}
+}
+

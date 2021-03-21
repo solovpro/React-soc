@@ -1,0 +1,29 @@
+.div {
+  color: white;
+  background-color: white;
+  border: 3px solid #7B68EE;
+
+  .login {
+    color: black;
+  }
+}
+
+form {
+  div {
+    margin: 3px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+  .rememberMe {
+    display: inline-block;
+    color: black;
+  }
+  .error {
+    border: 3px solid red;
+    color: red;
+    max-width: 150px;
+    font-size: 15px;
+  }
+}

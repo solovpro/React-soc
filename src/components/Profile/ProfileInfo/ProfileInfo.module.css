@@ -1,0 +1,180 @@
+.descriptionBlock {
+  padding: 10px 50px;
+  display: grid;
+}
+.descriptionBlock img {
+  margin: 0 0 10px 0;
+}
+.descriptionBlock .input {
+  border: 3px solid #7B68EE;
+  border-radius: 10px;
+  max-width: 115px;
+  max-height: 20px;
+  margin: 15px 0 0 80px;
+  background-color: #7B68EE;
+  color: #7B68EE;
+}
+.descriptionBlock .setPhoto {
+  color: black;
+}
+
+.BigImage {
+  width: 100%;
+  height: 350px;
+}
+
+.ProfileImage {
+  width: 350px;
+  border: 3px solid #7B68EE;
+  border-radius: 10px;
+}
+
+.profileInfo {
+  background-color: black;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px 0 13px 35px;
+  border: 3px solid #7B68EE;
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  align-items: center;
+}
+.profileInfo .button {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #7B68EE;
+  font-size: 14px;
+  margin: 0 0 0 110px;
+}
+.profileInfo .margin {
+  margin: 0 0 0 45px;
+}
+.profileInfo .margin .name {
+  margin: 15px 0 0 0;
+}
+.profileInfo .margin .info {
+  margin: 0 0 5px 0;
+}
+.profileInfo .margin .input {
+  max-width: 150px;
+}
+.profileInfo .margin .textarea {
+  max-height: 30px;
+  max-width: 150px;
+}
+.profileInfo .hr {
+  height: 0.1px;
+  width: 170px;
+  background-color: white;
+  color: white;
+  margin: 0;
+}
+.profileInfo div {
+  left: 30px;
+  position: relative;
+}
+
+.profileInfoAction {
+  background-color: black;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px 0 13px 35px;
+  border: 3px solid #7B68EE;
+  border-radius: 10px;
+  width: 400px;
+  height: 460px;
+  align-items: center;
+}
+.profileInfoAction .button {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #7B68EE;
+  font-size: 14px;
+  margin: 0 0 0 150px;
+}
+.profileInfoAction .error {
+  color: red;
+  border: 2px solid red;
+  font-size: 12px;
+  width: 270px;
+  margin: 5px 0 0 35px;
+}
+.profileInfoAction .margin {
+  margin: 0 0 0 45px;
+}
+.profileInfoAction .margin .name {
+  margin: 15px 0 0 0;
+}
+.profileInfoAction .margin .info {
+  margin: 0 0 5px 0;
+}
+.profileInfoAction .margin .input {
+  max-width: 150px;
+}
+.profileInfoAction .margin .textarea {
+  max-height: 30px;
+  max-width: 150px;
+}
+.profileInfoAction .hr {
+  height: 0.1px;
+  width: 170px;
+  background-color: white;
+  color: white;
+  margin: 0;
+}
+.profileInfoAction div {
+  left: 30px;
+  position: relative;
+}
+
+.contacts {
+  width: 250px;
+  margin: 5px auto;
+}
+.contacts .contactsText {
+  margin: 0 0 0 -30px;
+}
+.contacts .contactBlock {
+  margin: 0 110px 0 -110px;
+}
+.contacts .contactBlock .contact {
+  background-color: #fff;
+  color: black;
+  border: 3px solid #7B68EE;
+  margin: 0 50px 5px 0;
+}
+
+.photoInfo {
+  display: flex;
+  align-items: center;
+}
+
+.discript {
+  font-size: 30px;
+  color: #C0DFFF;
+}
+
+.redaction {
+  font-size: 16px;
+  padding: 0 70px;
+  color: #C0DFFF;
+}
+
+.profileStatus {
+  display: inline-block;
+  margin: 0 0 0 -85px;
+}
+
+.status {
+  color: white;
+  background-color: black;
+  border: 3px solid #7B68EE;
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}

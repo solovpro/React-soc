@@ -1,0 +1,59 @@
+.content {
+  background-color: white;
+  border: 5px solid #7B68EE;
+  max-width: 1050px;
+}
+
+
+.userPhoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.user {
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #000000;
+  width: 160px;
+}
+
+.selectedPage {
+  font-weight: bold;
+  font-size: 23px;
+  margin: 2px;
+}
+
+.number {
+  font-size: 20px;
+  margin: 2px;
+  font-family: Arial, serif;
+}
+
+.button {
+  font-family: Arial, serif;
+  border-radius: 30px;
+  border: 3px solid #7B68EE;
+}
+
+.paginator {
+  margin: 10px;
+}
+
+.pageNumber {
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 2px;
+  border: 1px solid grey;
+  min-width: 10px;
+}
+
+.pageNumber.selectedPage {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.page {
+  margin: 0 0 0 10px;
+}

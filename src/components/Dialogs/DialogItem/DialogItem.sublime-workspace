@@ -1,0 +1,488 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"Dia",
+				"dialogs"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"ttf2",
+				"ttf2woff"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"brow",
+				"browser-sync"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bcg",
+				"background\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"transi",
+				"transition-duration\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"mae",
+				"margin-left\tproperty"
+			],
+			[
+				"Ali",
+				"align-items\tproperty"
+			],
+			[
+				"aligm",
+				"align-items\tproperty"
+			],
+			[
+				"sap",
+				"space-between\tjustify-content"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"flex",
+				"inline-flex\tdisplay"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 137.0,
+		"history":
+		[
+			"gulp",
+			"npm install gulp --save-dev",
+			"gulp",
+			"4",
+			"3",
+			"1",
+			"2",
+			"8"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/79152/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/79152/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/79152/react-2/src/components/Dialogs/Message/Message.js",
+		"/C/Users/79152/react-2/src/components/Dialogs/Dialogs.js",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/MyPosts.js",
+		"/C/Users/79152/react-2/src/components/Dialogs/DialogItem/DialogItem.js",
+		"/C/Users/79152/react-2/src/components/Dialogs/Dialogs.module.scss",
+		"/C/Users/79152/react-2/src/components/Friends/Friends.js",
+		"/C/Users/79152/react-2/src/components/Friends/Friends.module.scss",
+		"/C/Users/79152/react-2/src/components/Navbar/Navbar.js",
+		"/C/Users/79152/react-2/src/components/Navbar/Navbar.module.scss",
+		"/C/Users/79152/react-2/src/components/Header/Header.module.scss",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/Post/Post.js",
+		"/C/Users/79152/react-2/src/components/Profile/Profile.js",
+		"/C/Users/79152/react-2/src/components/Friends/Friends.module.css",
+		"/C/Users/79152/react-2/src/components/Profile/ProfileInfo/ProfileInfo.js",
+		"/C/Users/79152/react-2/src/components/Dialogs/DialogItem/DialogItem.module.scss",
+		"/C/Users/79152/react-2/src/components/Dialogs/DialogItem/DialogItem.module.css",
+		"/C/Users/79152/react-2/src/components/Profile/Profile.module.scss",
+		"/C/Users/79152/react-2/src/components/Profile/ProfileInfo/ProfileInfo.module.scss",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/MyPosts.module.scss",
+		"/C/Users/79152/react-2/src/components/Header/Header.js",
+		"/C/Users/79152/react-2/src/components/Profile/ProfileInfo/ProfileInfo.module.css",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/Post/Post.module.scss",
+		"/C/Users/79152/react-2/src/App.scss",
+		"/C/Users/79152/react-2/src/components/Settings/Settings.module.scss",
+		"/C/Users/79152/react-2/src/components/Music/Music.module.scss",
+		"/C/Users/79152/react-2/src/components/News/News.module.scss",
+		"/C/Users/79152/react-2/src/components/Settings/Settings.js",
+		"/C/Users/79152/react-2/src/components/News/News.js",
+		"/C/Users/79152/react-2/src/components/Music/Music.js",
+		"/C/Users/79152/react-2/src/components/Settings/Settings.module.css",
+		"/C/Users/79152/react-2/src/components/News/News.module.css",
+		"/C/Users/79152/react-2/src/components/Music/Music.module.css",
+		"/C/Users/79152/react-2/src/components/Dialogs.js",
+		"/C/Users/79152/react-2/src/components/Dialogs/Dialogs.module.css",
+		"/C/Users/79152/react-2/src/components/Dialogs",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/Post/Post.module.css",
+		"/C/Users/79152/react-2/src/components/Profile.module.scss",
+		"/C/Users/79152/react-2/src/components/Profile.js",
+		"/C/Users/79152/react-2/src/components/Navbar.module.scss",
+		"/C/Users/79152/react-2/src/components/Header.module.scss",
+		"/C/Users/79152/react-2/src/App.css",
+		"/C/Users/79152/react-2/src/components/Header.js",
+		"/C/Users/79152/react-2/src/components/Navbar.js",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/MyPosts.module.css",
+		"/C/Users/79152/react-2/src/components/Profile/MyPosts/MyPosts.css",
+		"/C/Users/79152/react-2/src/App.js",
+		"/C/Users/79152/react-2/src/components/Profile.module.css",
+		"/C/Users/79152/react-2/src/components/Navbar.module.css",
+		"/C/Users/79152/react-2/src/components/Header.module.css",
+		"/C/Users/79152/react-2/src/components/Header.scss",
+		"/C/Users/79152/react-2/src/components/Profile.css",
+		"/C/Users/79152/react-2/src/components/Navbar.css",
+		"/C/Users/79152/react-2/src/components/Header.css",
+		"/C/Users/79152/react-1/src/App.scss",
+		"/C/Users/79152/react-2/src/components/Profile.scss",
+		"/C/Users/79152/react-2/src/components/Navbar.scss",
+		"/C/Users/79152/react-2/src/components/Nav.js",
+		"/C/Users/79152/react-2/src/components/Header.jsx",
+		"/C/Users/79152/react-2/src/Header.js",
+		"/C/Users/79152/AppData/Roaming/Sublime Text 3/Packages/ImportJS/ImportJS.sublime-settings",
+		"/C/Users/79152/react-1/src/App.css",
+		"/C/Users/79152/react-1/src/App.js",
+		"/C/Users/79152/Desktop/fls-gulp/#src/js/alert.js",
+		"/C/Users/79152/Desktop/fls-gulp/#src/js/script.js",
+		"/C/Users/79152/Desktop/fls-gulp/gulpfile.js",
+		"/C/Users/79152/Desktop/fls-gulp/#src/index.html",
+		"/C/Users/79152/Desktop/fls-gulp/#src/scss/fonts.scss",
+		"/C/Users/79152/Desktop/fls-gulp/#src/scss/style.scss",
+		"/C/Users/79152/Desktop/fls-gulp/dist/css/style.css",
+		"/C/Users/79152/Desktop/fls-gulp/#src/_header.html",
+		"/C/Users/79152/Desktop/fls-gulp/package.json",
+		"/C/Users/79152/Desktop/fls-gulp/dist/www.html",
+		"/C/Users/79152/Desktop/fls-gulp/#src/header.html",
+		"/C/Users/79152/Desktop/fls-gulp/dist/index.html",
+		"/C/Users/79152/Desktop/gulp/gulpfile.js",
+		"/C/Users/79152/Desktop/gulp/package.json",
+		"/C/Users/79152/Desktop/программирование/программы_для_проги/gulp/#src/js/script.js",
+		"/C/Users/79152/Desktop/программирование/программы_для_проги/gulp/#src/index.html",
+		"/C/Users/79152/Desktop/программирование/программы_для_проги/gulp/#src/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/программы_для_проги/gulp/gulpfile.js",
+		"/C/Users/79152/Desktop/программирование/программы_для_проги/gulp/package.json",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг4/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг4/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг4/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/готовые_проекты/лендинг3/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/готовые_проекты/лендинг3/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг3/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг3/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг3/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг2/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг2/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг2/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/Универ/задание7.py",
+		"/C/Users/79152/Desktop/программирование/Универ/задание3.py",
+		"/C/Users/79152/Desktop/программирование/Универ/задание2.py",
+		"/C/Users/79152/Desktop/программирование/Универ/задание1.py",
+		"/C/Users/79152/Downloads/exam6.py",
+		"/C/Users/79152/Downloads/6.py",
+		"/C/Users/79152/Downloads/exam3.py",
+		"/C/Users/79152/Downloads/exam7.py",
+		"/C/Users/79152/Downloads/8_2 (1).py",
+		"/C/Users/79152/Downloads/8_Ponyat_i_dodelat.py",
+		"/C/Users/79152/Downloads/8_2 (1).txt",
+		"/C/Users/79152/Desktop/программирование/Универ/задание4.py",
+		"/C/Users/79152/Downloads/exam4.py",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/сайт_токийский_гуль/#source/scss/style.scss",
+		"/C/Users/79152/Downloads/2.py",
+		"/C/Users/79152/Downloads/exam1.py",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/не_готовые_проекты/лендинг2/script.js",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/готовые_проекты/практика_лендинг/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/готовые_проекты/практика_лендинг/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/image/chek.png",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/#source/scss/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/index.html",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/шпаргалки/css/файл_обнуления.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/script.js",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/script.js",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/практика_лендинг/style.scss",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/test2.js",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/#source/scss/css/style.css",
+		"/C/Users/79152/Desktop/программирование/веб-программирование/сайт_токийский_гуль/style.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 108.8,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DialogItem.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+.div {
+  color: white;
+  background-color: white;
+  border: 3px solid #7B68EE;
+}
+.div .login {
+  color: black;
+}
+
+form div {
+  margin: 3px;
+}
+form input {
+  font-size: 16px;
+}
+form .rememberMe {
+  display: inline-block;
+  color: black;
+}
+form .error {
+  border: 3px solid red;
+  color: red;
+  max-width: 150px;
+  font-size: 15px;
+}

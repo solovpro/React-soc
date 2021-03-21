@@ -1,0 +1,30 @@
+.nav {
+	min-width: 160px;
+	grid-area: n;
+	background-color: #000;
+	padding: 30px;
+	border: 3px solid #7B68EE;
+	font-family: "Times New Roman", serif ;
+	.item {
+		display: flex;
+		padding: 3px;
+		margin: 0 0 5px 0;
+		font-size: 19px;
+		border: 3px solid #7B68EE;
+		border-radius: 30px;
+		align-items: center;
+		justify-content: center;
+		&:nth-child(6) {
+			margin: 380px 0 0 0;
+			font-size: 24px;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+
+.item a:active {
+	color: #7B68EE;
+} 
