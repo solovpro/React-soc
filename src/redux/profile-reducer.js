@@ -4,7 +4,8 @@ const ADD_POST = 'ADD-POST';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
 const SET_STATUS = 'SET_STATUS';
 const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS';
-const GET_ERROR = 'GET_ERROR';
+const GET_ERROR_PROFILE_INFO = 'GET_ERROR_PROFILE_INFO';
+const GET_NOT_ERROR = 'GET_NOT_ERROR';
 
 let initialState = {
     posts: [
@@ -14,7 +15,7 @@ let initialState = {
     ],
     profile: null,
     status: '',
-    message: ''
+    errors: ''
 }
 
 const profileReducer = (state = initialState, action) => {
@@ -48,10 +49,15 @@ const profileReducer = (state = initialState, action) => {
                     photos: action.photos
                 }
             };
-        case GET_ERROR:
+        case GET_ERROR_PROFILE_INFO:
             return {
                 ...state,
-                message: action.message
+                error: action.error
+            };
+        case GET_NOT_ERROR:
+            return {
+                ...state,
+                error: ''
             };
         default:
             return state;
@@ -63,7 +69,9 @@ export const addPostActionCreator = (newPostText) => ({type: ADD_POST, newPostTe
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
 export const setUserStatus = (status) => ({type: SET_STATUS, status})
 export const savePhotoSuccess = (photos) => ({type: SAVE_PHOTO_SUCCESS, photos})
-export const getError = (message) => ({type: GET_ERROR, message})
+export const getErrorProfileInfo = (error) => ({type: GET_ERROR_PROFILE_INFO, error})
+export const getNotError = (error) => ({type: GET_NOT_ERROR, error})
+
 
 export const getUserProfileThunk = (userId) => async (dispatch) => {
     let response = await userAPI.getProfile(userId);
@@ -76,13 +84,9 @@ export const getStatus = (userId) => async (dispatch) => {
 }
 
 export const updateStatus = (status) => async (dispatch) => {
-    try {
-        let response = await profileAPI.updateStatus(status);
-        if (response.data.resultCode === 0) {
-            dispatch(setUserStatus(status));
-        }
-    } catch(error) {
-        //
+    let response = await profileAPI.updateStatus(status);
+    if (response.data.resultCode === 0) {
+        dispatch(setUserStatus(status));
     }
 }
 export const savePhoto = (file) => async (dispatch) => {
@@ -96,9 +100,10 @@ export const saveProfile = (profile) => async (dispatch, getState) => {
     let response = await profileAPI.saveProfile(profile);
     if (response.data.resultCode === 0) {
         dispatch(getUserProfileThunk(userId));
+        dispatch(getNotError(response.data.messages ? response.data.messages[0] : ''));
     } else {
-        dispatch(getError(response.data.messages ? response.data.messages[0] : ''));
-        /*return Promise.reject().then();*/
+        dispatch(getErrorProfileInfo(response.data.messages ? response.data.messages[0] : ''));
+        return Promise.reject();
     }
 }
 

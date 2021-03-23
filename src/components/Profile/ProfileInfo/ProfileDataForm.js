@@ -9,7 +9,7 @@ const ProfileDataForm = (props) => {
 
     return <form className={s.profileInfoAction} onSubmit={handleSubmit(props.onSubmit)}>
         <button className={s.button}>Сохранить</button>
-        <div className={s.error}>{props.message ? <div>{props.message}</div> : ''}</div>
+        <div>{props.error ? <div className={s.error}>{props.error}</div> : ''}</div>
         <div className={s.redaction}>Режим редактирования</div>
         <div className={s.margin}>
             <div className={s.name && s.info}>
@@ -39,10 +39,14 @@ const ProfileDataForm = (props) => {
             <div className={s.contacts}>
                 <div className={s.contactsText}><b>Контакты:</b></div>
                 <div className={s.contactBlock}>
-                    {Object.keys(props.profile.contacts).map(key => {
-                        return <div><b>{key}:</b><input className={s.input} ref={register({
-                            required: false
-                        })} placeholder={key} name={'contacts.' + key}/></div>
+                    {Object.keys(props.profile.contacts).map((key, props) => {
+                        return (
+                            <div>
+                                <b>{key}:</b><input className={s.input} ref={register({
+                                    required: false
+                                })} placeholder={key} name={'contacts.' + key}/>
+                            </div>
+                    )
                     })}
                 </div>
             </div>

@@ -19,19 +19,27 @@
 .header .loginBlock {
   float: right;
   color: #fff;
-  margin: 8px 15px 0 0;
+  margin: 10px 15px 0 0;
   font-size: 23px;
-  border: 2px solid #7B68EE;
   padding: 1px 5px 5px;
 }
 .header .loginBlock .login {
-  color: #fff;
+  color: #7B68EE;
+  display: flex;
+}
+.header .loginBlock .login img {
+  width: 50px;
+  border-radius: 10px;
+  padding: 0 0 15px 0;
+  margin: -7px 10px 0 0;
 }
 .header .loginBlock .button {
-  margin: 0;
+  margin: 0 0 0 15px;
   font-family: Arial, serif;
   border-radius: 30px;
   border: 3px solid #7B68EE;
+  height: 40px;
+  background-color: white;
 }
 .header a {
   float: right;

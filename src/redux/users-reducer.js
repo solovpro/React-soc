@@ -18,6 +18,7 @@ const TOGGLE_IS_FOLLOWING_PROGRESS = 'TOGGLE_IS_FOLLOWING_PROGRESS';
     isFetching: false,
     followingInProgress: []
 }*/
+
 var initialState = {
 
     users: [
@@ -77,12 +78,12 @@ var initialState = {
             followed: true
         }
     ],
-    pageSize: 5,
+    pageSize: 12,
     totalUsersCount: 10695,
     currentPage: 1,
     isFetching: false,
     followingInProgress: [],
-    portionSize: 15
+    portionSize: 18
 }
 
 
@@ -181,7 +182,7 @@ export const follow = (userId) => {
 
 export const unfollow = (userId) => {
     return async (dispatch) => {
-        await followUnfollowFlow(dispatch, userId, userAPI.unfollow.bind(userAPI), unfollowSuccess);
+        followUnfollowFlow(dispatch, userId, userAPI.unfollow.bind(userAPI), unfollowSuccess);
     }
 }
 

@@ -43,7 +43,7 @@ const LoginForm = (props) => {
                 })} placeholder={'Password'} name={'password'} type={'password'}/>
                 {errors.password && <h1>"Введите пароль!"</h1>}
             </div>
-            <div className={s.error}>{props.message ? <div>{props.message}</div> : ''}</div>
+            <div>{props.message ? <div className={s.error}>{props.message}</div> : ''}</div>
             <div className={s.input}>
                 <input ref={register} type={'checkbox'} name={'rememberMe'}/>
                 <div className={s.rememberMe}>remember me</div>

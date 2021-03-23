@@ -16,6 +16,7 @@
 }
 .descriptionBlock .setPhoto {
   color: black;
+  display: flex;
 }
 
 .BigImage {
@@ -131,11 +132,11 @@
 }
 
 .contacts {
-  width: 250px;
-  margin: 5px auto;
+  width: 450px;
+  margin: 5px 0 5px -55px;
 }
 .contacts .contactsText {
-  margin: 0 0 0 -30px;
+  margin: 0 0 0 25px;
 }
 .contacts .contactBlock {
   margin: 0 110px 0 -110px;

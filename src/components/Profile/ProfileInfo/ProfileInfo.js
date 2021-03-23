@@ -15,7 +15,7 @@ const ProfileInfo = (props) => {
 
     const onMainPhotoSelected = (e) => {
         if (e.target.files.length) {
-            props.savePhsoto(e.target.files[0]);
+            props.savePhoto(e.target.files[0]);
         }
     }
 
@@ -33,12 +33,14 @@ const ProfileInfo = (props) => {
                     <div className={s.status}><ProfileStatusWithHooks status={props.status}
                                                                       updateStatus={props.updateStatus}/></div>
                     <div className={s.setPhoto}>
-                        Сменить фото:{props.isOwner &&
+                        {props.isOwner &&
+                        <p>Сменить фото:</p>}
+                        {props.isOwner &&
                     <input className={s.input} type="file" onChange={onMainPhotoSelected}/>}
                     </div>
                 </div>
                 {editMode ? <ProfileDataForm profile={props.profile}
-                                             message={props.message}
+                                             error={props.error}
                                              status={props.status}
                                              updateStatus={props.updateStatus}
                                              onSubmit={onSubmit}

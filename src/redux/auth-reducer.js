@@ -3,6 +3,7 @@ import {authAPI, securityAPI} from "../api.js/api";
 const SET_USER_DATA = '/auth/SET_USER_DATA';
 const GET_ERROR = '/auth/GET_ERROR';
 const GET_CAPTCHA_URL_SUCCESS = '/auth/GET_CAPTCHA_URL_SUCCESS';
+const GET_NOT_ERROR = 'GET_NOT_ERROR';
 
 let initialState = {
     userId: null,
@@ -31,6 +32,11 @@ const authReducer = (state = initialState, action) => {
                 ...state,
                 captchaUrl: action.captchaUrl
             };
+        case GET_NOT_ERROR:
+            return {
+                ...state,
+                message: ''
+            };
         default:
             return state;
     }
@@ -46,6 +52,7 @@ export const getCaptchaUrlSuccess = (captchaUrl) => ({
     captchaUrl
 })
 export const getError = (message) => ({type: GET_ERROR, message})
+export const getNotError = (message) => ({type: GET_NOT_ERROR, message})
 
 export const getAuthUserDataThunk = () => async (dispatch) => {
     let response = await authAPI.me();
@@ -59,10 +66,11 @@ export const login = (email, password, rememberMe, captcha) => async (dispatch) 
     let response = await authAPI.login(email, password, rememberMe, captcha);
 
     if (response.data.resultCode === 0) {
-        dispatch(getAuthUserDataThunk())
+        dispatch(getAuthUserDataThunk());
+        dispatch(getNotError(response.data.messages ? response.data.messages[0] : ''));
     } else {
         if (response.data.resultCode === 10) {
-            dispatch(getCaptchaUrl())
+            dispatch(getCaptchaUrl());
         }
         dispatch(getError(response.data.messages ? response.data.messages[0] : ''));
     }

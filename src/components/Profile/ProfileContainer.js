@@ -37,7 +37,7 @@ class ProfileContainer extends React.Component {
                      updateStatus={this.props.updateStatus}
                      savePhoto={this.props.savePhoto}
                      saveProfile={this.props.saveProfile}
-                     message={this.props.message}/>
+                     error={this.props.error}/>
         );
     }
 }
@@ -47,9 +47,8 @@ let mapStateToProps = (state) => ({
     status: state.profilePage.status,
     myUserId: state.auth.userId,
     isAuth: state.auth.isAuth,
-    message: state.auth.message
+    error: state.profilePage.error
 });
-
 
 let composeFunc = compose(
     withRouter
