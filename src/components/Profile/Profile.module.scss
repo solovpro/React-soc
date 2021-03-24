@@ -3,4 +3,7 @@
 	border: 5px solid #7B68EE;
 	color: #fff;
 	font-family: Arial, serif;
+	@media (max-width: 767px) {
+		max-width: 767px
+	}
 }

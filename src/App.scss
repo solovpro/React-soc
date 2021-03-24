@@ -1,21 +1,25 @@
 body {
-	background-color: #C0DFFF;
+  background-color: #C0DFFF;
 }
 
 .app-wrapper {
-	background-color: #C0DFFF;
-	margin: 0 auto;
-	display: grid;
-	width: 1200px;
-	grid-template-areas: 
+  background-color: #C0DFFF;
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+  grid-template-areas:
 	'h h'
 	'n c';
-	grid-template-rows: 60px 1fr;
-	grid-template-columns: 2fr 10fr;
-	grid-gap: 10px;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  @media (max-width: 767px) {
+	  grid-template-areas: 'h h' 'n n' 'c c';
+	  max-width: 767px;
+  }
 }
 
 .app-wrapper-content {
-	grid-row: c;
-	min-height: 700px;
+  grid-row: c;
+  min-height: 700px;
 }

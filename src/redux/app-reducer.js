@@ -1,10 +1,11 @@
 import {getAuthUserDataThunk} from "./auth-reducer";
 
 const SET_INITIALIZED = 'SET_INITIALIZED';
+const SET_GLOBAL_ERROR = 'SET_GLOBAL_ERROR';
 
 let initialState = {
     initialized: false,
-    globalError: null
+    globalError: true
 }
 
 const appReducer = (state = initialState, action) => {
@@ -15,6 +16,18 @@ const appReducer = (state = initialState, action) => {
                 ...state,
                 initialized: true
             };
+        case SET_GLOBAL_ERROR:
+            if (state.globalError) {
+                return {
+                    ...state,
+                    globalError: false
+                };
+            } else {
+                return {
+                    ...state,
+                    globalError: true
+                };
+            }
         default:
             return state;
     }
@@ -22,6 +35,7 @@ const appReducer = (state = initialState, action) => {
 
 
 export const setInitialized = () => ({type: SET_INITIALIZED});
+export const setGlobalError = (globalError) => ({type: SET_GLOBAL_ERROR, globalError});
 
 export const initializeApp = () => (dispatch) => {
     let promise = dispatch(getAuthUserDataThunk());

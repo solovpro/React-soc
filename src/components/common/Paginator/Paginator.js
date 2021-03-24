@@ -19,6 +19,7 @@ const Paginator = (props) => {
     return (
         <div className={s.num}>
             <div className={s.paginator}>
+                {portionNumber === 1 && <button className={s.button}>{back}</button>}
                 {portionNumber > 1 &&
                 <button className={s.button} onClick={ () => { setPortionNumber(portionNumber -1) }}>{back}</button>}
             {pages
@@ -31,6 +32,7 @@ const Paginator = (props) => {
                              }}>{p}</span>
             })}
                 {portionCount > portionNumber && <button className={s.button} onClick={() => {setPortionNumber(portionNumber + 1)}}>{next}</button>}
+                {portionCount === portionNumber && <button className={s.lastbutton}>{next}</button>}
             </div>
         </div>
     )

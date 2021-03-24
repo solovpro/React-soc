@@ -4,3 +4,8 @@
   color: #fff;
   font-family: Arial, serif;
 }
+@media (max-width: 767px) {
+  .content {
+    max-width: 767px;
+  }
+}

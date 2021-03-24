@@ -45,3 +45,8 @@
   float: right;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .header {
+    max-width: 767px;
+  }
+}

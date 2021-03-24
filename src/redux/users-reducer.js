@@ -78,12 +78,12 @@ var initialState = {
             followed: true
         }
     ],
-    pageSize: 12,
+    pageSize: 20,
     totalUsersCount: 10695,
     currentPage: 1,
     isFetching: false,
     followingInProgress: [],
-    portionSize: 18
+    portionSize: 15
 }
 
 

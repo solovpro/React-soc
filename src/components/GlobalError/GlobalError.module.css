@@ -1,0 +1,26 @@
+.container {
+  background-color: white;
+  border: 3px solid #7B68EE;
+  display: grid;
+  min-height: 250px;
+}
+.container .exit {
+  width: 50px;
+  margin: 0 0 0 1000px;
+}
+.container .display {
+  display: flex;
+}
+.container .display .img {
+  width: 100px;
+  margin: 70px 0 0 100px;
+}
+.container .display .errorText {
+  font-size: 30px;
+  font-family: "Verdana", serif;
+  margin: 120px 120px 0;
+}
+.container .display .errorText .hr {
+  background-color: black;
+  height: 1px;
+}

@@ -5,8 +5,6 @@ import userPhoto from "../../assets/images/user.png";
 
 let Header = (props) => {
 
-	debugger
-
 	return(
 		<header className = {s.header}>
 			<img src="https://www.zastavki.com/pictures/originals/2015/Backgrounds_Lilac_hexagon_on_a_gray_background_098513_.png" alt="" />
@@ -14,10 +12,10 @@ let Header = (props) => {
 			<div className={s.loginBlock}>
 				{props.isAuth ? <div className={s.login}>
 					<div>
-						<img src={props.profile.photos.small
+						{props.profile && <img src={props.profile.photos.small
 							? props.profile.photos.small
 							: userPhoto} alt=""
-							 className={s.ProfileImage}/>
+							 className={s.ProfileImage}/>}
 					</div>
 					{props.login} - <button className={s.button} onClick={props.logout}>
 					Log out

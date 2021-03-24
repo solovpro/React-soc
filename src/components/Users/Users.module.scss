@@ -1,7 +1,20 @@
-.content {
+.contentUsers {
   background-color: white;
   border: 5px solid #7B68EE;
   max-width: 1050px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contentUser {
+  background-color: white;
+  border: 5px solid #7B68EE;
+  width: 200px;
+  margin: 14px;
+  box-shadow: 3px 3px 3px 3px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 
@@ -36,16 +49,23 @@
   border: 3px solid #7B68EE;
 }
 
+.lastbutton {
+  font-family: Arial, serif;
+  border-radius: 30px;
+  border: 3px solid #7B68EE;
+  margin: 0 60px 0 0;
+}
+
 .paginator {
-  margin: 10px;
+  margin: 10px 80px 10px 170px;
 }
 
 .pageNumber {
   display: inline-block;
   padding: 2px 4px;
   margin: 2px;
-  border: 1px solid grey;
-  min-width: 10px;
+  border: 1px solid black;
+  min-width: 12px;
 }
 
 .pageNumber.selectedPage {

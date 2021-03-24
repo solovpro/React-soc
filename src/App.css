@@ -12,6 +12,12 @@ body {
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
+@media (max-width: 767px) {
+  .app-wrapper {
+    grid-template-areas: "h h" "n n" "c c";
+    max-width: 767px;
+  }
+}
 
 .app-wrapper-content {
   grid-row: c;

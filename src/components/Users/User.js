@@ -5,7 +5,7 @@ import userPhoto from "../../assets/images/user.png";
 let User = (props) => {
 
     return (
-        <div className={s.content}>
+        <div className={s.contentUser}>
                     <span>
                         <div>
                             <NavLink to={'/profile/' + props.user.id}>
@@ -28,8 +28,8 @@ let User = (props) => {
                                               props.follow(props.user.id);
                                           }}>Follow</button>}
                                 </div>
-                                </span>
-            <span>
+                    </span>
+                        <span>
                             <span>
                                 <div>{props.user.name}</div>
                                 <div>{props.user.status}</div>

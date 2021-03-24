@@ -1,5 +1,6 @@
-import {userAPI} from "../api.js/api";
+import {profileAPI, userAPI} from "../api.js/api";
 
+const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
 
 let initialState = {
@@ -19,9 +20,12 @@ const headerReducer = (state = initialState, action) => {
     }
 }
 
-export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
+
+export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
+
 export const getUserProfileThunk = (userId) => async (dispatch) => {
     let response = await userAPI.getProfile(userId);
     dispatch(setUserProfile(response.data));
-}
+};
+
 export default headerReducer;
