@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-soc/static/css/main.efebc577.chunk.css",
+    "main.css": "/React-soc/static/css/main.7b8ca263.chunk.css",
     "main.js": "/React-soc/static/js/main.9992902f.chunk.js",
     "main.js.map": "/React-soc/static/js/main.9992902f.chunk.js.map",
-    "runtime-main.js": "/React-soc/static/js/runtime-main.0d448db6.js",
-    "runtime-main.js.map": "/React-soc/static/js/runtime-main.0d448db6.js.map",
+    "runtime-main.js": "/React-soc/static/js/runtime-main.12b0bd47.js",
+    "runtime-main.js.map": "/React-soc/static/js/runtime-main.12b0bd47.js.map",
     "static/js/2.934819d8.chunk.js": "/React-soc/static/js/2.934819d8.chunk.js",
     "static/js/2.934819d8.chunk.js.map": "/React-soc/static/js/2.934819d8.chunk.js.map",
-    "static/css/3.0b2003ab.chunk.css": "/React-soc/static/css/3.0b2003ab.chunk.css",
+    "static/css/3.ab199dfc.chunk.css": "/React-soc/static/css/3.ab199dfc.chunk.css",
     "static/js/3.ea513139.chunk.js": "/React-soc/static/js/3.ea513139.chunk.js",
     "static/js/3.ea513139.chunk.js.map": "/React-soc/static/js/3.ea513139.chunk.js.map",
     "static/css/4.1459f5c2.chunk.css": "/React-soc/static/css/4.1459f5c2.chunk.css",
@@ -16,18 +16,18 @@
     "static/js/5.8e9e77a4.chunk.js": "/React-soc/static/js/5.8e9e77a4.chunk.js",
     "static/js/5.8e9e77a4.chunk.js.map": "/React-soc/static/js/5.8e9e77a4.chunk.js.map",
     "index.html": "/React-soc/index.html",
-    "static/css/3.0b2003ab.chunk.css.map": "/React-soc/static/css/3.0b2003ab.chunk.css.map",
+    "static/css/3.ab199dfc.chunk.css.map": "/React-soc/static/css/3.ab199dfc.chunk.css.map",
     "static/css/4.1459f5c2.chunk.css.map": "/React-soc/static/css/4.1459f5c2.chunk.css.map",
-    "static/css/main.efebc577.chunk.css.map": "/React-soc/static/css/main.efebc577.chunk.css.map",
+    "static/css/main.7b8ca263.chunk.css.map": "/React-soc/static/css/main.7b8ca263.chunk.css.map",
     "static/js/2.934819d8.chunk.js.LICENSE.txt": "/React-soc/static/js/2.934819d8.chunk.js.LICENSE.txt",
     "static/media/preloader.aec42a44.gif": "/React-soc/static/media/preloader.aec42a44.gif",
     "static/media/user.png": "/React-soc/static/media/user.ee9a9e57.png",
     "static/media/ошибка.b363cc10.png": "/React-soc/static/media/ошибка.b363cc10.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d448db6.js",
+    "static/js/runtime-main.12b0bd47.js",
     "static/js/2.934819d8.chunk.js",
-    "static/css/main.efebc577.chunk.css",
+    "static/css/main.7b8ca263.chunk.css",
     "static/js/main.9992902f.chunk.js"
   ]
 }
